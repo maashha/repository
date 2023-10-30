@@ -1,2 +1,3 @@
-a = input()
-print(a)
+from functions import inputs
+commands = list(map(str,input().split(', ')))
+inputs(commands)
